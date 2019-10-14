@@ -6,11 +6,6 @@
 
 ![image.png](https://images.zenhubusercontent.com/5a2f3a3e8a75884b908ac8c4/841a8f31-052d-4afe-a6b9-8cdb72d4e4a7)
 
-## 地址数据来源(数据不对请更新此 json)
-
-更新方法：将此 json 文件内容复制至同名 js 里的 var pcassCode=xxxx;
-
-[pcas-code.json](https://github.com/modood/Administrative-divisions-of-China/blob/master/dist/pcas-code.json)
 
 ## 支持以下数据格式（地址、姓名、电话、邮编、身份证号码【字母大写】用空格或者特殊字符分开!!）
 
