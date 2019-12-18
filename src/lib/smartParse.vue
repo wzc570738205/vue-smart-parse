@@ -192,6 +192,7 @@ function smatrAddress(event) {
         matchAddress = address.slice(0, endIndex + 2)
         addressList.forEach(el => {
             //  if (el.name == smartObj.province) {
+                 if (el.code == smartObj.provinceCode) {
             if (smartObj.province == '北京市' || smartObj.province == '天津市' || smartObj.province == '上海市' || smartObj.province == '重庆市') {
                 el.children.forEach(item => {
                     item.children.forEach(res => {
@@ -220,6 +221,7 @@ function smatrAddress(event) {
                         })
                     }
                 })
+            }
             }
             // }
         })
