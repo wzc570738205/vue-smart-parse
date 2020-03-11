@@ -277,7 +277,7 @@ function smatrAddress(event) {
             if (res["county"].indexOf(matchAddress) != -1) {
                     //省/市  || 省 
               if (smartObj.province) {
-                if (res.code.slice(0, 2) == smartObj.provinceCode) {
+                if (res.code.slice(0, 4) == smartObj.cityCode) {
                   matchCounty.push({
                     county: res.county,
                     countyCode: res.code,
